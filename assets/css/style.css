@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v1.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -32,22 +27,23 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   border-radius: 50px;
-  right: 15px;
+  right: 19px;
   bottom: 15px;
   background: #149ddd;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
+  /* padding: 27px; */
 }
 
 .back-to-top i {
-  font-size: 24px;
+  font-size: 34px;
   position: absolute;
-  top: 7px;
-  left: 8px;
+  top: 9px;
+  left: 10px;
 }
 
 .back-to-top:hover {
@@ -1051,7 +1047,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 12px;
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
@@ -1079,4 +1075,17 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/* whatsapp css */
+.Window__Component-sc-17wvysh-0{
+  margin-bottom: 68px;
+}
+.Window__Component-sc-17wvysh-0 a:nth-child(2){
+  display: none !important;
+}
+
+/* sticky play */
+.audioPlay{
+  position: static;
 }
