@@ -1,9 +1,3 @@
-/**
-* Template Name: iPortfolio - v1.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
@@ -152,23 +146,6 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      900: {
-        items: 3
-      }
-    }
-  });
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
@@ -191,3 +168,15 @@
   });
 
 })(jQuery);
+
+// music toggle
+function audioPlay() {
+  let audio = document.getElementById("audio");
+   audio.play();
+   console.log('audio play')
+}
+function audioPause() {
+  let audio = document.getElementById('audio');
+  audio.pause();
+  console.log('aduio paused')
+}

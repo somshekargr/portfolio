@@ -1085,7 +1085,19 @@ section {
   display: none !important;
 }
 
-/* sticky play */
-.audioPlay{
-  position: static;
+/*mp3 player */
+.play-pause{
+  position: fixed;
+  right: 15px;
+  top: 5px;
+  z-index: 99999;
+  display: flex;
+  padding: 53px 2px 4px 7px;
+}
+.play-pause .btn-group-toggle{
+  flex-direction: column;
+}
+.play-pause label{
+  border-radius: 100% !important;
+  margin-bottom: 6px !important;
 }
